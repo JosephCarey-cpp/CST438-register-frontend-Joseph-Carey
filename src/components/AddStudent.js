@@ -50,7 +50,6 @@ class AddStudent extends Component {
             this.setState({ 
               message: "Student Added!"
             });
-
           }
         })
       .catch(err => console.error(err))
